@@ -40,7 +40,7 @@ html,body {
 }
 
 
-.container .btext .top_one .personal_image1 > img{
+#personal_image1_part .btext .top_one .personal_image1 > img{
     position: center;
     align-items: center;
     max-width: 100%;
@@ -50,6 +50,7 @@ html,body {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: -15px;
 }
 
 .container .btext .top_one .name_text > h1{
