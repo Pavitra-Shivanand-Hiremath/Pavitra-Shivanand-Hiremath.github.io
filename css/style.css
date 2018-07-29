@@ -25,9 +25,36 @@ html,body {
     text-align: center;
     align-items: center;
     top: 8%;
+    padding: auto;
     margin: auto;
     display: -webkit-flex; /* Safari */
     -webkit-align-items: center; /* Safari 7.0+ */
+}
+
+.container .btext .top_one{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+
+.container .btext .top_one .personal_image1 > img{
+    position: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container .btext .top_one .name_text > h1{
+    position: center;
+    font-size-adjust:auto;
 }
 
 .container .btext .btn a{
