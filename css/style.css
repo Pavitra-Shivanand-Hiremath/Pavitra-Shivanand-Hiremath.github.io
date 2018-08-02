@@ -31,7 +31,7 @@ html,body {
     -webkit-align-items: center; /* Safari 7.0+ */
 }
 
-.container .btext .top_one{
+#personal_image1_part .btext .top_one{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -53,8 +53,9 @@ html,body {
     margin-bottom: -15px;
 }
 
-.container .btext .top_one .name_text > h1{
+#personal_image1_part .btext .top_one .name_text > h1{
     position: center;
+    color: #fff;
     font-size-adjust:auto;
 }
 
@@ -86,6 +87,7 @@ html,body {
       height:50%;
       }
 }
+
 
 /*Nav bar*/
 #particles-js .custom-navigation {
@@ -400,10 +402,15 @@ ul {
     justify-content: center;
     font-size: 16px;
     margin: 40px 80px 80px 80px;
-    padding: 15px;
+    padding: auto;
     border-radius: 8px;
     border: 1px solid rgb(165, 164, 164);
     box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+#sections .row{
+    float: center; 
+    margin:auto; 
 }
 
 .medi_image {
