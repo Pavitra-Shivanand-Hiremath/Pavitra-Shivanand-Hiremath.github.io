@@ -408,6 +408,12 @@ ul {
     box-shadow: 0 15px 25px rgba(0,0,0,0.2);
 }
 
+@media only screen and (max-width:500px){
+    .experiences .section{
+        margin: 40px;
+    }
+}
+
 #sections .row{
     float: center; 
     margin:auto; 
@@ -423,7 +429,7 @@ ul {
 
 /* This part includes all the projects and its details*/
 
-.projects_part >h2{
+.projects_part > h2{
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -501,16 +507,12 @@ ul {
 .column:hover .show_project1{
     display:block;
 }
-/*
-.projects_image{
-    opacity: 0.3;
-    display: block;
-    width: 100%;
-    height: 100%;
-    transition: .5s ease;
-    backface-visibility: hidden;
+
+@media screen and (max-width: 500px){
+.row .column{
+    width: 80%; 
 }
-*/
+}
 .show_project2{
     display: none;
     transition: .5s ease;
